@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cat Photo App</title>
+</head>
+ 
+ 
+<body>
+ 
+ 
+  <header>
+    <h1>CatPhoto App</h1>
+  <header>
+<h2>Cat Photos</h2>
+    <p>Click here to view more  <a target="_blank" href="https://www.freecatphotoapp.com/"> cat photos</a>.</p>
+    <figure>
+        <img width="150" src="https://bit.ly/fcc-relaxing-cat" alt="cat">
+    </figure>
+<h2>Cat Lists</h2>
+ 
+<h3>Things cats love:</h3>
+<ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+</ul>
+    
+    <figure>
+        <img width="150" src=" https://www.marthastewart.com/2140307/what-is-catnip" alt="cat">
+    </figure>
+   
+    
+<br>
+    <form>
+       <fieldset>
+      <h3>Cat Adoption Matching Form <br></h3>
+         Name: <input type="text" name="fName"
+             placeholder="type your first name"
+             required><br>
+       Preferred Sex
+      <label><input type="radio" name "q1"> male</label>
+      <label><input type="radio" name "q1"> female</label>
+      <br>
+      Fur Color
+      <label><input type="radio" name "q2"> black</label>
+      <input type="radio" name "q2"> white
+      <input type="radio" name "q2"> orange
+      <input type="radio" name "q2"> brown
+     
+         <br><input type="checkbox" name="os"  
+         <br>
+         Other
+     <input type="text" name="fName" placeholder="state here"
+             required><br>
+                
+    
+      
+      <button> Send </button>
+    </form>
+ 
+<figure>
+    <img width="150" 

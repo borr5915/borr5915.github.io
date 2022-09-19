@@ -1,0 +1,29 @@
+ 	figure {text-align: center;
+ 			border-radius: 100px;}
+	
+
+	h1{ background color: #050a52;
+        color: white; 
+        font-family: 'Black Han Sans';
+        font-size: 40px;
+        text-align: center;
+        border-top: 50px;
+        border: 20px solid #0A2567;
+        border-left: 100px solid #0A2567;
+        border-right: 100px solid #0A2567;
+        margin-left: 0px;}
+
+
+    h2 {background color: #050a52;
+        color: lightyellow; 
+        font-family: 'Abel';
+        font-size: 22px;
+        text-align: right;
+        border: 20px solid #085BB2;
+        border-left: 100px solid #085BB2;
+       
+    }
+
+    body{
+    	background-color: #A78130;
+    }

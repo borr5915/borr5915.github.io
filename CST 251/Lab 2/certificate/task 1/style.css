@@ -1,0 +1,69 @@
+
+        h1 {text-align: center;}
+        h2 {text-align: center;}
+        h3 {text-align: center;}
+        li {text-align: center;}
+        ul {text-align: center;}
+        figure {text-align: center;}
+        ol {text-align: center;}
+
+    body  {background-image: url(https://img.freepik.com/free-photo/cloud-sky-twilight-times_74190-4017.jpg?w=2000);}
+
+    h1 {
+        background color: #050a52;
+        color: white; 
+        text-align: center;
+        padding: 15px;
+        border: 20px solid mediumpurple;
+        margin: 0 px 50 px 
+        }
+    img {
+        border: 4 px solid #050a52;
+        padding 0px 50px; 
+        border-radius: 100px 70 px;
+        width: 50%;
+        height: auto; }
+
+    h2 {
+        font-family: "Verdana", Helvetica, Arial, Verdana; 
+        font-size:  0.2in;
+        font-size:  20px;
+        color: white;}
+    h3 {
+            font-family: "Verdana", Helvetica, Arial, Verdana; 
+            font-size:  0.2in;
+            font-size:  16px;
+            color: purple; }
+    li {  font-family: "Verdana", Helvetica, Arial, Verdana; 
+            font-size:  0.2in;
+            font-size:  16px;
+            color: purple; }
+     
+
+     p { font-family: "Verdana", Helvetica, Arial, Verdana; 
+            font-size:  0.2in;
+            font-size:  16px;
+            color: purple; }
+
+     footer { 
+        border: 20px solid mediumpurple;
+        border-left: 100px solid mediumpurple;
+        border-right: 100px solid mediumpurple;
+        margin-left: 0px;
+
+     }
+
+     h5 { font-family: "Verdana", Helvetica, Arial, Verdana; 
+        font-size:  0.2in;
+        font-size:  20px;
+        color: black;
+        text-align: center;}
+
+    h6 { font-family: "Verdana", Helvetica, Arial, Verdana; 
+         font-size:  0.2in;
+         font-size:  15px;
+         color: black;
+         text-align: center;}
+    
+
+
