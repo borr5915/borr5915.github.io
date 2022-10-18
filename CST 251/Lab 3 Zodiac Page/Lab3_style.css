@@ -1,0 +1,233 @@
+body {
+	background-color: antiquewhite;
+	border-radius: 50px;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 120px;
+}
+main {
+	position: absolute;
+	top: 0; 
+	left: 150px;
+	text-align: center;
+	}
+body {
+	font-family: 'Acme';font-size: 22px;
+	}
+h1 {
+	background-color:orangered;
+	color:white;
+}
+h2 {
+	background-color:darkred;
+	color:white;
+}
+
+h3 {
+	background-color:orangered;
+	color:white;
+	text-align: center;
+	border-radius: 100px;
+	border-width:10px;
+	border-height:10px;
+	border-radius: 15px;
+	width: 200px;
+    height: 20px;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+#years{
+	text-align:center;
+	display:none;
+}
+
+#animal {
+	text-align: center;
+	width:20%;
+}
+
+#allAnimals {
+	border-radius:20px;
+	
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+	.links nav ul li a {
+	flex-wrap: wrap;
+	background-color:darkgoldenrod;
+	word-wrap: break-word;
+	display: flex;
+	position:fixed;
+	border-radius: 15px;  
+	width: 200px;
+	height: 50px;
+	padding: 0px;
+ flex-wrap: wrap;
+	 	}
+	nav {
+		background-color:darkgoldenrod;
+		word-wrap: break-word;
+		display: absolute;
+		flex-wrap: wrap;
+		height: 200px;
+		overflow:;
+		top:0;
+		width: 100%;
+	}
+	nav::before{
+		content:"Navigation Menu";
+		background-color: darkred;
+		color:white;
+		font-size: 1.5rem;
+		text-align: center;
+		width: 100%;
+		display:block;
+	}
+	main {
+		position: absolute;
+		top: 168px; 
+		left: 0;
+		text-align: center;
+			}
+	nav ul li a:hover {
+		font-size:40px;
+		}
+	nav ul li a:link /* unvisited link */{
+		color: firebrick; 
+		
+		}
+	nav ul li a:visited /* visited link */{
+		  color: darkblue;
+		}
+	nav ul li a:hover /* mouse over link */{
+		  color: #FFDE39;
+		}
+	nav ul li a:active /* selected link */{
+		color: #0000FF; 
+		}
+	nav ul li {
+		list-style: none;
+		text-align: center;
+		}
+  
+}
+}
+@media (max-width: 768px) {
+	.links nav ul li a {
+	flex-wrap: wrap;
+	background-color:darkgoldenrod;
+	word-wrap: break-word;
+	display: flex;
+	position:fixed;
+	border-radius: 15px;  
+	width: 200px;
+	height: 50px;
+	padding: 0px;
+ flex-wrap: wrap;
+	 	}
+	nav {
+		background-color:darkgoldenrod;
+		word-wrap: break-word;
+		display: absolute;
+		height: 200px;
+		overflow:scroll;
+		top:0;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	nav::before{
+		content:"Navigation Menu";
+		background-color: darkred;
+		color:white;
+		font-size: 1.5rem;
+		text-align: center;
+		width: 100%;
+		display:block;
+	}
+	main {
+		position: absolute;
+		top: 168px; 
+		left: 0;
+		text-align: center;
+			}
+	nav ul li a:hover {
+		font-size:40px;
+		}
+	nav ul li a:link /* unvisited link */{
+		color: firebrick; 
+		}
+	nav ul li a:visited /* visited link */{
+		  color: darkblue;
+		}
+	nav ul li a:hover /* mouse over link */{
+		  color: #FFDE39;
+		}
+	nav ul li a:active /* selected link */{
+		color: #0000FF; 
+		}
+	nav ul li {
+		list-style: none;
+		text-align: center;
+		}
+  
+}
+
+@media (max-width: 480px) {
+	
+	nav {
+		background-color:darkgoldenrod;
+		word-wrap: break-word;
+		display: absolute;
+		height: 200px;
+		overflow:scroll;
+		top:0;
+		width: 100%;
+	}
+
+	nav::before{
+		content:"Navigation Menu";
+		background-color: darkred;
+		color:white;
+		font-size: 1.5rem;
+		text-align: center;
+		width: 100%;
+		display:block;
+	}
+	main {
+		position: absolute;
+		top: 168px; 
+		left: 0;
+		text-align: center;
+			}
+	nav ul li a:hover {
+		font-size:40px;
+		}
+	nav ul li a:link /* unvisited link */{
+		color: firebrick; 
+		}
+	nav ul li a:visited /* visited link */{
+		  color: darkblue;
+		}
+	nav ul li a:hover /* mouse over link */{
+		  color: #FFDE39;
+		}
+	nav ul li a:active /* selected link */{
+		color: #0000FF; 
+		}
+	nav ul li {
+		list-style: none;
+		text-align: center;
+		}
+  
+}
+}
+
