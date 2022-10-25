@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	border-color: rebeccapurple
+	border: 1px
+	font-family: 'Amethysta';font-size: 15px;
+	background-color:lavender;
+	left: 200 px;
+	text-align:center;
+	}
+
+h1 {
+	color:rebeccapurple;
+	background-color: white;
+	border-radius: 30px;
+	width:100%;
+}
+p{
+	color: purple;
+	background-color:pink;
+	font-size: 20px;
+	margin: auto;
+	width:90%;
+}
+
+p .example {
+	text-align:left;
+}
+
+li {
+	color: purple;
+	background-color:;
+	font-size: 20px;
+	margin: auto;
+	width:90%;
+	text-align:left;
+}
+
+h2{
+	color:pink;	
+}
+
+#navbar {
+	background-color: pink;
+	color:white;
+	font-size:15px;
+	position:fixed;
+	display:block;	
+	}
+
+	#navbar:hover {
+		font-size:40px;
+		}
+	#navbar:link /* unvisited link */{
+		color: lightblue; 
+		
+		}
+	#navbar:visited /* visited link */{
+		  color: pink;
+		}
+	#navbar:hover /* mouse over link */{
+		  color: orange;
+		}
+	#navbar:active /* selected link */{
+		color: lightpink; 
+
+@media (max-width: 768px) {
+	
+#navbar {
+			left:10px;
+			}
+nav::before{
+		content:"Navigation Menu";
+		background-color: rebeccapurple;
+		color:pink;
+		font-size: 1.5rem;
+		text-align: center;
+		width: 100%;
+		display:block;
+		position:sticky;
+		left:30px;	
+	}
+body {
+	position:absolute;
+	overflow:scroll;
+	display: block;
+	left:200px ;
+	right: 50px;
+	}
+h1 p {
+	position:absolute;
+	left: 40px;	
+	width: 50%;
+	}
+}
